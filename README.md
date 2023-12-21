@@ -37,7 +37,7 @@ Day and Month Names
 Day names and month names are extracted from the date column.
 
 ## Generic Questions
-Unique Cities: How many unique cities does the data have?
+1.Unique Cities: How many unique cities does the data have?
 Branch and City Mapping: In which city is each branch located?
 Product Analysis
 Unique Product Lines: How many unique product lines does the data have?
