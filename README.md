@@ -54,4 +54,4 @@ Unique Customer Types: How many unique customer types does the data have?
 Gender Distribution: What is the gender distribution of customers?
 Customer Buying Habits: Which customer type buys the most?
 Rating Analysis: Analysis of customer ratings, including the best time of day for high ratings
-For the code, check the https://github.com/rohitp5551/Walmart-Sales-Analysis.git file
+For the code, check the https://github.com/rohitp5551/Walmart-Sales-Analysis/blob/main/Walmart-Sales-Analysis.sql file
