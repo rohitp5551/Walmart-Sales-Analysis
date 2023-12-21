@@ -1,9 +1,15 @@
-Walmart Sales Data Analysis
-Introduction
-This repository contains SQL code for analyzing Walmart sales data. The data is stored in a MySQL database named salesDataWalmart, and the SQL queries provided here perform various analyses and feature engineering on the dataset.
-Database Structure
-The database consists of a single table named sales with the following columns:
+# Walmart Sales Data Analysis
 
+# About
+This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
+
+"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." [source](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
+
+## Introduction
+This repository contains SQL code for analyzing Walmart sales data. The data is stored in a MySQL database named salesDataWalmart, and the SQL queries provided here perform various analyses and feature engineering on the dataset.
+
+## Database Structure
+The database consists of a single table named sales with the following columns:
 invoice_id: Unique identifier for each sale (Primary Key)
 branch: Walmart branch code
 city: City where the sale occurred
@@ -23,14 +29,14 @@ gross_income: Gross income from the sale
 rating: Customer rating
 .[WalmartSalesData.csv.csv](https://github.com/rohitp5551/Walmart-Sales-Analysis/files/13731395/WalmartSalesData.csv.csv)
 
-Feature Engineering
+## Feature Engineering
 Time of Day
 The time of day is categorized as "Morning," "Afternoon," or "Evening" based on the sale's time.
 
 Day and Month Names
 Day names and month names are extracted from the date column.
 
-Generic Questions
+## Generic Questions
 Unique Cities: How many unique cities does the data have?
 Branch and City Mapping: In which city is each branch located?
 Product Analysis
@@ -48,4 +54,4 @@ Unique Customer Types: How many unique customer types does the data have?
 Gender Distribution: What is the gender distribution of customers?
 Customer Buying Habits: Which customer type buys the most?
 Rating Analysis: Analysis of customer ratings, including the best time of day for high ratings
-For the code, check the  file
+For the code, check the https://github.com/rohitp5551/Walmart-Sales-Analysis.git file
